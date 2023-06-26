@@ -137,16 +137,7 @@ STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
 
-#    __      _______ _____    ___  __ _    _  _____ _____ _____   _____   ____ _______ 
-#    \ \    / /_   _|  __ \   |  \/  | |  | |/ ____|_   _/ ____|  |  _ \ / __ \__   __|
-#     \ \  / /  | | | |__) |  | \  / | |  | | (___   | || |       | |_) | |  | | | |   
-#      \ \/ /   | | |  ___/   | |\/| | |  | |\___ \  | || |       |  _ <| |  | | | |   
-#       \  /   _| |_| |       | |  | | |__| |____) |_| || |____   | |_) | |__| | | |   
-#        \/   |_____|_|       |_|  |_|\____/|_____/|_____\_____|  |____/ \____/  |_|   
-
-                                                                                 
-
-                                                                                 
+ RKM music 2.0                                                                                                                                                               
 
 ### DONT TOUCH or EDIT codes after this line
 BANNED_USERS = filters.user()
