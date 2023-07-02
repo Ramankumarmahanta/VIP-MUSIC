@@ -23,7 +23,7 @@ async def init():
         and not config.STRING4
         and not config.STRING5
     ):
-        LOGGER("VipX").error(
+        LOGGER("rkmMusic").error(
             "WTF Baby ! Atleast add a pyrogram string, How Cheap..."
         )
         return
@@ -31,7 +31,7 @@ async def init():
         not config.SPOTIFY_CLIENT_ID
         and not config.SPOTIFY_CLIENT_SECRET
     ):
-        LOGGER("VipX").warning(
+        LOGGER("rkmMusic").warning(
             "Sur spotify id aur secret toh daala hi nahi aapne ab toh spotify se nahi chala paaoge gaane."
         )
     try:
@@ -46,7 +46,7 @@ async def init():
     await app.start()
     for all_module in ALL_MODULES:
         importlib.import_module("VipX.plugins." + all_module)
-    LOGGER("VipX.plugins").info(
+    LOGGER("rkmMusic.plugins").info(
         "Necessary Modules Imported Successfully."
     )
     await userbot.start()
@@ -60,14 +60,14 @@ async def init():
             "https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4"
         )
     except NoActiveGroupCall:
-        LOGGER("VipX").error(
+        LOGGER("rkmMusic").error(
             "[ERROR] - \n\nHey Baby, firstly open telegram and turn on voice chat in Logger Group else fu*k off. If you ever ended voice chat in log group i will stop working and users will fu*k you up."
         )
         sys.exit()
     except:
         pass
     await Vip.decorators()
-    LOGGER("VipX").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 RKM MUSICAL ♨️\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER("rkmMusic").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 RKM MUSICAL ♨️\n╚═════ஜ۩۞۩ஜ════╝")
     await idle()
 
 
